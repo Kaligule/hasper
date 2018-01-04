@@ -64,7 +64,7 @@ At this point, you could spin up Hugo's server and take a look at the site on yo
 We'll use another Hugo helper command to create a file that represents a new post on your site:
 
 ```bash
-$ hugo new post/welcome.md -f yaml
+$ hugo new post/welcome.md
 ```
 
 That command creates a new file located at `content/post/welcome.md`. Also, a quick note on the `-f yaml` option I have been using. Hugo defaults to [toml](https://github.com/toml-lang/toml) for metadata, which I'm not a fan of. I prefer to use [yaml](http://yaml.org) as my format for these settings.
